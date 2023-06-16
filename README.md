@@ -15,7 +15,7 @@ The SQL Query Generator is a web application built with React and JavaScript tha
 
 - Node.js and npm installed on your machine.
 - OpenAI GPT-3.5 API credentials. (Refer to OpenAI's documentation for obtaining API credentials.)
-- 
+
 ## Installation
 
 1. Clone the repository:
@@ -31,12 +31,13 @@ This will install the required dependencies for both the frontend and backend co
 ## Configuration
 
 1. Obtain OpenAI GPT-3.5 API credentials.
--Follow the instructions provided by OpenAI to sign up and obtain the API credentials.
+- Follow the instructions provided by OpenAI to sign up and obtain the API credentials.
 
 2. Configure API credentials:
-- In the root directory of the project, create a .env file.
-- Add the following environment variables to the .env file:
-OPENAI_API_KEY=<your-api-key>
+- In the root directory of the project, create a `.env` file.
+- Add the following environment variables to the `.env` file:
+  ```
+  OPENAI_API_KEY=<your-api-key>
   
 ## Usage
 
