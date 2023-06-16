@@ -2,6 +2,8 @@
 
 The SQL Query Generator is a web application built with React and JavaScript that allows users to effortlessly create SQL queries. It provides a user-friendly interface where users can input their desired criteria and generate complex SQL queries with ease. The app leverages the power of OpenAI GPT-3.5 API to assist users in formulating accurate and efficient SQL queries. With this tool, users can save time and streamline their database operations by automating the query generation process.
 
+![App Page Screenshots](images)
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
