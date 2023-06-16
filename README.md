@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# SQL Query Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The SQL Query Generator is a web application built with React and JavaScript that allows users to effortlessly create SQL queries. It provides a user-friendly interface where users can input their desired criteria and generate complex SQL queries with ease. The app leverages the power of OpenAI GPT-3.5 API to assist users in formulating accurate and efficient SQL queries. With this tool, users can save time and streamline their database operations by automating the query generation process.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js and npm installed on your machine.
+- OpenAI GPT-3.5 API credentials. (Refer to OpenAI's documentation for obtaining API credentials.)
+- 
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+Clone the repository: git clone [https://github.com/satyam3196/GPT-Clone](https://github.com/satyam3196/SQL-Query-Generator)
 
-### `npm test`
+2. Navigate to the project directory:
+cd SQL-Query-Generator
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the frontend and backend dependencies: npm install
 
-### `npm run build`
+This will install the required dependencies for both the frontend and backend components of the project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Configuration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Obtain OpenAI GPT-3.5 API credentials.
+-Follow the instructions provided by OpenAI to sign up and obtain the API credentials.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Configure API credentials:
+- In the root directory of the project, create a .env file.
+- Add the following environment variables to the .env file:
+OPENAI_API_KEY=<your-api-key>
+  
+## Usage
 
-### `npm run eject`
+1. Start the frontend development server:
+npm run start:frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Start the backend server:
+npm run start:backend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Open your web browser and visit:
+http://localhost:8000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Make sure to update the commands (`npm run start:frontend` and `npm run start:backend`) based on your specific setup. The first command starts the frontend development server, while the second command starts the backend server.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to modify the instructions according to your project's requirements or if you have any additional steps for running the frontend or backend components.
+  
+## Contributing
 
-## Learn More
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.
+2. Create a new branch for your feature/bug fix.
+  
+## Contact 
+  
+For any inquiries or suggestions, feel free to reach out to me at satyam3196@gmail.com
+  
